@@ -14,7 +14,7 @@ permissions:
 # Permite apenas um deploy simultâneo por vez
 concurrency:
   group: "pages"
-  cancel-in-running: true
+  cancel-in-progress: true
 
 jobs:
   build:
